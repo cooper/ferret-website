@@ -10,23 +10,29 @@ a img {
     border: none;
 }
 
+h1.wiki-section-title,
+h2.wiki-section-title,
+h3.wiki-section-title,
+h4.wiki-section-title {
+    border-color: #eee;
+}
+
 #container {
     width: 970px;
     width: calc(100% - 150px);
     max-width: 1000px;
     min-width: 800px;
     margin: 50px auto 50px auto;
-    border: 1px solid #ccc;
-    background-color: #fff;
+    border-radius: 10px;
 }
 
 #content {
     padding: 15px;
+    background-color: #fff;
 }
 
 #header {
     height: 70px;
-    border-bottom: 1px solid #ccc;
     background-color: #eee;
 }
 
@@ -67,7 +73,7 @@ a img {
 #navigation li {
     display: inline-block;
     margin-left: 15px;
-    border: 1px solid #ccc;
     background-color: #f7f7f7;
-    padding: 5px;
+    padding: 8px 12px;
+    border-radius: 10px;
 }
