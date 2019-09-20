@@ -15,12 +15,12 @@ h1.wiki-section-title,
 h2.wiki-section-title,
 h3.wiki-section-title,
 h4.wiki-section-title {
-    border-color: #eee;
+    border-color: #eee !important;
 }
 
 pre.wiki-code, .wiki-main code, .wiki-main a code {
-    border-radius: 10px;
-    border: none;
+    border-radius: 10px !important;
+    border: none !important;
 }
 
 #container {
