@@ -77,12 +77,16 @@ pre.wiki-code, .wiki-main code, .wiki-main a code {
 
 #navigation li {
     display: inline-block;
+}
+
+#navigation li a {
+    display: inline-block;
     margin-left: 15px;
     background-color: #fff;
     padding: 8px 12px;
     border-radius: 10px;
 }
 
-#navigation li:hover {
+#navigation li a:hover {
     background-color: #eee;
 }
