@@ -18,6 +18,11 @@ h4.wiki-section-title {
     border-color: #eee;
 }
 
+pre.wiki-code, .wiki-main code, .wiki-main a code {
+    border-radius: 10px;
+    border: none;
+}
+
 #container {
     width: 970px;
     width: calc(100% - 150px);
