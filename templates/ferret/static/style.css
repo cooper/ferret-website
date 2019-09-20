@@ -34,19 +34,18 @@ pre.wiki-code, .wiki-main code, .wiki-main a code {
 #content {
     padding: 15px;
     background-color: #fff;
-    border-radius: 0 0 10px 10px;
+    border-radius: 10px;
 }
 
 #header {
     height: 70px;
-    background-color: #eee;
     border-radius: 10px 10px 0 0;
+    margin-bottom: 20px;
 }
 
 #header h1 {
     height: 100%;
     line-height: 70px;
-    display: inline-block;
     float: left;
     margin: 0 15px;
     color: #000;
@@ -54,7 +53,6 @@ pre.wiki-code, .wiki-main code, .wiki-main a code {
 
 #header img {
     margin: 10px 20px;
-    display: inline-block;
     float: left;
     height: 50px;
     position: relative;
@@ -80,7 +78,11 @@ pre.wiki-code, .wiki-main code, .wiki-main a code {
 #navigation li {
     display: inline-block;
     margin-left: 15px;
-    background-color: #f7f7f7;
+    background-color: #fff;
     padding: 8px 12px;
     border-radius: 10px;
+}
+
+#navigation li:hover {
+    background-color: #eee;
 }
