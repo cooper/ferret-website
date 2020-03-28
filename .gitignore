@@ -5,3 +5,4 @@
 *.sock
 private/*
 cache/*
+auth.json

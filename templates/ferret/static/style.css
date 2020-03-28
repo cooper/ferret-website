@@ -10,17 +10,17 @@ a img {
     border: none;
 }
 
-h1.wiki-section-page-title,
-h1.wiki-section-title,
-h2.wiki-section-title,
-h3.wiki-section-title,
-h4.wiki-section-title {
+h1.q-sec-page-title,
+h1.q-sec-title,
+h2.q-sec-title,
+h3.q-sec-title,
+h4.q-sec-title {
     border-color: #eee !important;
 }
 
-pre.wiki-code, .wiki-main code, .wiki-main a code {
-    border-radius: 10px !important;
-    border: none !important;
+pre.q-code, .q-main code, .q-main a code, .q-toc {
+    border-radius: 8px !important;
+    border: 0 !important;
 }
 
 #container {
